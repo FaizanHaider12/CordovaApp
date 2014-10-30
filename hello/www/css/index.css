@@ -5,9 +5,9 @@ body {
 }
 
 ul {
-  margin: 5px 5px 5px 5px
+  margin: 0 auto;
 }
 
-.location {
+#location {
   margin: 0 auto;
 }
