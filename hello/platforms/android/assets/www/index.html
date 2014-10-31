@@ -21,11 +21,16 @@
           <h1>Hello World</h1>
         </div>
 
+        <script>
+        function myFunction() {
+          document.getElementById("mar").innerHTML = "she cool";
+        }
+</script>
         <div class="ui-content" role="main">
           <div class="location" style="position:absolute;height:100px;width:300px;z-index:15;top:30%;left:50%; margin:-100px 0 0 -150px;">
           <h2 style="text-align=center">Suitemates</h2>
           <ul style="list-style-type: none; text-align=center">
-            <li style="margin-top:10px; margin-bottom;10px"><a href="#m">Marrisa</a></li>
+            <li id="mar" style="margin-top:10px; margin-bottom;10px"><a button type="button" onclick="myFunction()" href="#m">Marrisa</a></li>
             <li style="margin-top:10px; margin-bottom;10px"><a href="#sy">Sydney</a></li>
             <li style="margin-top:10px; margin-bottom;10px"><a href="#e1">Emily "Cheerleader"</a></li>
             <li style="margin-top:10px; margin-bottom;10px"><a href="#c">Chris</a></li>
@@ -48,7 +53,7 @@
         </div>
       </div>
 
-      <div data-role="page" id="m">
+      <!--<div data-role="page" id="m">
         <div data-role="header">
           <a href="#home" data-transition="slide" data-direction="reverse" data-icon="arrow-l" class="ui-btn-left">Home</a>
         </div>
@@ -57,7 +62,7 @@
           <p>She cool</p>
         </div>
         </div>
-      </div>
+      </div>-->
 
       <div data-role="page" id="sy">
         <div data-role="header">

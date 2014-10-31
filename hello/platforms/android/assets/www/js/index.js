@@ -1,3 +1,9 @@
+$(document).ready(function() {
+    $('li').click(function() {
+        $('li').fadeOut('slow');
+    });
+});
+
 var faizanapp= {};
 faizanapp.app = {
     // Application Constructor
